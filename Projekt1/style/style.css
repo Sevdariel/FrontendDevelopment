@@ -1,0 +1,132 @@
+/* body {
+    background: #50763b url('../img/background.png') repeat-x;
+    width: 100%;
+    font: 12px/20px Verdana, Arial, sans-serif;
+    color: #fff;
+} */
+
+header {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    background-color: silver;
+    height: auto;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#content-wrapper {
+    background-color: lightgray;
+    height: auto;
+}
+
+#logo {
+    background: url('../img/logo.png') no-repeat;
+    height: 60px;
+    width: 220px;
+    display: block;
+    cursor: pointer;
+}
+
+#border {
+    border-style: dashed;
+    padding-bottom: 10px;
+    border-right: 1px;
+    border-left: 1px;
+    border-top: 1px;
+}
+
+#facebook-header {
+    width: 70%;
+}
+
+#facebook-header.shorter {
+    margin: auto;
+}
+
+header {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+header nav {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+header.shorter {
+    width: 70%;
+    margin: auto;
+}
+
+header nav ul {
+    margin-top: 25px;
+    padding: 0;
+}
+
+header nav ul li {
+    float: left;
+    position: relative;
+    list-style: none;
+    width: auto;
+    height: auto;
+    border-style: groove;
+    border-left: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+header nav ul li.border-right {
+    position: relative;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+
+div.left {
+    width: 25%;
+    float: left;
+    height: 250px;
+}
+
+div.middle {
+    width: 50%;
+    float: left;
+    height: 250px;
+}
+
+div.middle-right {
+    width: 50%;
+    float: right;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.right {
+    width: 25%;
+    float: left;
+    height: 250px;
+    background-color: purple;
+}
